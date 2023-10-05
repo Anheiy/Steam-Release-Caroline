@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Moveable
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - TopLayer
+  - Middle - 1
+  - Middle - 2
+  - BottomLayer
+  - Top Border
+  - Middle - 1 Border
+  - Middle - 2 Border
+  - Bottom Border
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: TopLayer
+    uniqueID: 3388145501
+    locked: 0
+  - name: Middle - 1
+    uniqueID: 2577318069
+    locked: 0
+  - name: Middle - 2
+    uniqueID: 2569558505
+    locked: 0
+  - name: BottomLayer
+    uniqueID: 624371997
+    locked: 0

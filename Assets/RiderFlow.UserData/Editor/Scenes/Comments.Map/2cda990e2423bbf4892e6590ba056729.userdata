@@ -1,0 +1,26 @@
+{
+  "GlobalObjectId_V1-2-2cda990e2423bbf4892e6590ba056729-1493268708-0": {
+    "GameObjectId": "GlobalObjectId_V1-2-2cda990e2423bbf4892e6590ba056729-1493268708-0",
+    "CommentText": "All Moveable Objects go here!",
+    "AssetGUID": "2cda990e2423bbf4892e6590ba056729",
+    "UniqueItemID": "GlobalObjectId_V1-2-2cda990e2423bbf4892e6590ba056729-1493268708-0"
+  },
+  "GlobalObjectId_V1-2-2cda990e2423bbf4892e6590ba056729-750522980-0": {
+    "GameObjectId": "GlobalObjectId_V1-2-2cda990e2423bbf4892e6590ba056729-750522980-0",
+    "CommentText": "Any item that is in the game space itself is placed here",
+    "AssetGUID": "2cda990e2423bbf4892e6590ba056729",
+    "UniqueItemID": "GlobalObjectId_V1-2-2cda990e2423bbf4892e6590ba056729-750522980-0"
+  },
+  "GlobalObjectId_V1-2-2cda990e2423bbf4892e6590ba056729-1154673375-0": {
+    "GameObjectId": "GlobalObjectId_V1-2-2cda990e2423bbf4892e6590ba056729-1154673375-0",
+    "CommentText": "This is the gameobject that holds\nthe garbage script",
+    "AssetGUID": "2cda990e2423bbf4892e6590ba056729",
+    "UniqueItemID": "GlobalObjectId_V1-2-2cda990e2423bbf4892e6590ba056729-1154673375-0"
+  },
+  "GlobalObjectId_V1-2-2cda990e2423bbf4892e6590ba056729-421572043-0": {
+    "GameObjectId": "GlobalObjectId_V1-2-2cda990e2423bbf4892e6590ba056729-421572043-0",
+    "CommentText": "Holds all Canva's",
+    "AssetGUID": "2cda990e2423bbf4892e6590ba056729",
+    "UniqueItemID": "GlobalObjectId_V1-2-2cda990e2423bbf4892e6590ba056729-421572043-0"
+  }
+}
