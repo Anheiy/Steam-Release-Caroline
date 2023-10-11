@@ -19,8 +19,8 @@ public class CompletionManager : MonoBehaviour
     public void ProgressionBarUpdate()
     {
         garbageVal = GameObject.FindGameObjectsWithTag("Moveable").Length;
-        Debug.Log(startingGarbageVal);
-        Debug.Log(garbageVal);
+        //Debug.Log(startingGarbageVal);
+        //Debug.Log(garbageVal);
         garbageLeft.text = garbageVal.ToString();
         progressionBar.fillAmount = 1 - garbageVal / startingGarbageVal;
         progBarText.text = Mathf.Round((1 - garbageVal / startingGarbageVal ) * 100)  + "%";

@@ -65,25 +65,28 @@ public class DragObjects : MonoBehaviour
         foreach (Collider2D objectHit in objectsHit)
         {
             if (!objectHit) continue;
-            if (objectHit.transform.gameObject.layer >= currentLayer)
+            if (objectHit.GetType() == typeof(PolygonCollider2D))
             {
-                if (objectHit.transform.gameObject.GetComponent<SpriteRenderer>().sortingOrder >= currentOrder)
+                if (objectHit.transform.parent.gameObject.layer >= currentLayer)
                 {
-                    if (objectHit.tag == "Moveable")
+                    if (objectHit.transform.parent.gameObject.GetComponent<SpriteRenderer>().sortingOrder >= currentOrder)
                     {
-                        selectedObject = objectHit.transform.gameObject;
-                        currentLayer = selectedObject.layer;
-                        currentOrder = selectedObject.GetComponent<SpriteRenderer>().sortingOrder;
-                        difference = mainCamera.ScreenToWorldPoint(Input.mousePosition) - selectedObject.transform.position;
-                    }
+                        if (objectHit.transform.parent.tag == "Moveable")
+                        {
+                            selectedObject = objectHit.transform.parent.gameObject;
+                            currentLayer = selectedObject.layer;
+                            currentOrder = selectedObject.GetComponent<SpriteRenderer>().sortingOrder;
+                            difference = mainCamera.ScreenToWorldPoint(Input.mousePosition) - selectedObject.transform.position;
+                        }
 
+                    }
                 }
             }
         }
         if (objectsHit != null)
         {
             StartCoroutine(DragUpdate(selectedObject));
-            Debug.Log(selectedObject);
+            //Debug.Log(selectedObject);
         }
 
 
